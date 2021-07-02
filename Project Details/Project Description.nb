@@ -1,0 +1,72 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      2324,         64]
+NotebookOptionsPosition[      1856,         47]
+NotebookOutlinePosition[      2252,         63]
+CellTagsIndexPosition[      2209,         60]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["MIX Virtual Machine", "Title",
+ CellChangeTimes->{{3.834000938274564*^9, 
+  3.8340009902150474`*^9}},ExpressionUUID->"8752ff6f-edb2-475a-8233-\
+fc2d1fd7be75"],
+
+Cell["\<\
+The goal of this project is to create a Virtual Machine that emulates a MIX \
+computer. This computer will be able to input MIX assembly language and \
+output the result of its execution. It will also be added to Wolfram\
+\[CloseCurlyQuote]s Virtual Machine repository and make use of its built in \
+features, allowing for execution history, memory visualization, and more. The \
+virtual machine will be able to execute the  instructions outlined in Donald \
+Knuth\[CloseCurlyQuote]s \[OpenCurlyDoubleQuote]The Art of Computer \
+Programming\[CloseCurlyDoubleQuote], with possible implementation of punch \
+card input/output, variable bit sizes (as described in TAOCP), etc. if time \
+permits.\
+\>", "Text",
+ CellChangeTimes->{{3.834000993112088*^9, 3.8340010072435303`*^9}, {
+  3.8340011697776394`*^9, 3.8340012971638813`*^9}, {3.834082777303553*^9, 
+  3.8340827857515135`*^9}, {3.834084407827776*^9, 3.834084500800767*^9}, {
+  3.83408509223563*^9, 3.834085113634592*^9}, {3.834085148307558*^9, 
+  3.8340851504107304`*^9}},ExpressionUUID->"ede23425-1ae0-4b20-ab10-\
+91b431428511"]
+}, Open  ]]
+},
+WindowSize->{1424, 809},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (May 13, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"b80b767c-6377-4d96-a0fc-60b78947fc06"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 164, 3, 98, "Title",ExpressionUUID->"8752ff6f-edb2-475a-8233-fc2d1fd7be75"],
+Cell[750, 27, 1090, 17, 81, "Text",ExpressionUUID->"ede23425-1ae0-4b20-ab10-91b431428511"]
+}, Open  ]]
+}
+]
+*)
+
